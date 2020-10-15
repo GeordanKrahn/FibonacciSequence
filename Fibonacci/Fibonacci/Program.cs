@@ -26,7 +26,7 @@ namespace Fibonacci
 
             //loop for how many fibonacci numbers user wants
             //first + second = result
-            for (int i = 0; i < fibNumberPlace; i++)
+            for (int i = 1; i < fibNumberPlace; i++)
             {
                 //add the 2 numbers and assign to result
                 result = firstNum + secondNum;
